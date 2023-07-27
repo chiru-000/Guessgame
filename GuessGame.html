@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="header-container">
+            <h1>Number Guessing Game</h1>
+            <p id="rules">Guess a number between 1 and 100. You have minimum 5 attempts!</p>
+        </div>
+        
+        <div id="game-board-container">
+            <div id="button-container">
+                <button id="start-button">Start Game</button>
+            </div>
+            <div id="chances-container">
+                <p id="chances">Chances left: <span id="chances-count">5</span></p>
+            </div>
+            <div id="timer-container">
+                <p id="timer">Time: <span id="timer-count">0</span> seconds</p>
+            </div>
+            <div id="input-container">
+                <input type="text" id="guess-input" placeholder="Enter your guess">
+                <button id="submit-button">Submit</button>
+            </div>
+            <div id="feedback-container">
+                <p id="feedback"></p>
+            </div>
+        </div>
+
+        <div id="game-over-screen" style="display: none;">
+            <div id="end-message-container">
+                <h2 id="end-message"></h2>
+            </div>
+            <div id="button-container">
+                <button id="play-again-button">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
