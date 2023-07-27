@@ -1,4 +1,4 @@
-"Developed and Deployed Interactive Guess Game on AWS"
+"Developed and Deployed Interactive Guess number Game on AWS"
 
 Conceived and developed an engaging Guess Game web application using HTML, CSS, and JavaScript, demonstrating proficiency in front-end web technologies.
 The game involves users guessing a number, with real-time feedback provided on whether the guess is too high, too low, or correct.
